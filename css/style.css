@@ -6,15 +6,6 @@ body, h1, h2, h3, p {
     padding: 0;
 }
 
-.title{
-    text-align: center;
-    margin: 1%;
-    color: blue;
-    text-shadow: 1px 1px 2px black;
-    font-weight: bold;
-    font-family: 'Sora', sans-serif;
-}
-
 .sectionCard{
     display: flex;
     flex-direction:column; 
@@ -52,7 +43,7 @@ body {
     max-width: 1280px;
     margin: 0 auto;
     color: #cbd5e1;
-    background: #6C727F;
+    background: #FFFFFF;
     font-family: 'Sora', sans-serif;
     line-height: 1.5;
     display: flex;
