@@ -43,7 +43,6 @@ html, body{
     height: 45%;
     text-align: center;
     object-fit: cover;
-    margin-bottom: 20px;
 }
 
 body {
@@ -70,11 +69,12 @@ body {
 }
 
 .titleCard{
-    margin: 0 16px;
     color: black;
     font-family: 'Sora', sans-serif;
     margin-right: auto;
+    margin-left: 16px;
     margin-bottom: 6px;
+    font-size: 16px;
 }
 
 .parrafoCard{
