@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;400;500&display=swap');
 
 
-body, h1, h2, h3, p {
-    margin: 0;
-    padding: 0;
+html, body{
+    width: 100%;
+    height: 100%;
 }
 
 .sectionCard{
@@ -12,14 +12,21 @@ body, h1, h2, h3, p {
     justify-content: center;
     align-items: center;
     height: inherit;
+    background-color: #fff;
 }
 
 .divCard{
     padding: 10px;
     margin:   10px auto;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.726);
-    border-radius: 1.5rem;
+    box-shadow: 3px 9px 50px 0px rgba(0,0,0,0.75);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background: #FAFAF9;  
+    padding: 30px;
+    width: 26%;
+    height: 45%;
 }
 
 
@@ -30,16 +37,19 @@ body, h1, h2, h3, p {
     align-items: center;
     justify-content: center;
     margin-bottom: 1.2rem;
+    
 }
 
 .image{
-    border-radius: 1.5rem;
-    width: 336px;
-    height: 152px;
+    border-radius: 25px;
+    height: 45%;
+    text-align: center;
+    object-fit: cover;
+    margin-bottom: 20px;
 }
 
 body {
-    min-height: 55vh;
+    min-height: 100vh;
     max-width: 1280px;
     margin: 0 auto;
     color: #cbd5e1;
